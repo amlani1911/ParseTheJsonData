@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Data Table</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <div class="firstData" id="firstData" style="display: block;">
+        <h2>Fetch Data and Show here</h2>
+        <button id="button">Populate Data</button>
+    </div>
+
+
+    <div class="data" id="secondData" style="display: none;">
+        <h3 id="recordCount">Total Records: <span id="count"></span></h3>
+
+
+<table id="dataTable">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Subcategory</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Popularity</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Table body will be dynamically populated with data -->
+    </tbody>
+</table>
+    </div>
+
+
+
+<script src="./app.js"></script>
+
+</body>
+</html>

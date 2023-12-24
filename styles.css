@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    margin-bottom: 0;
+}
+
+td, th, tr, table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+table {
+    margin: 3rem auto;
+}
+
+h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+thead>tr:hover {
+    background-color: red;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+.firstData{
+    margin: 0 auto;
+    text-align: center;
+}
